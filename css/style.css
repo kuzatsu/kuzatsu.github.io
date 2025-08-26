@@ -3,14 +3,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-     cursor: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' width='32' height='32'%3e%3cpath d='M12 10V8h-1V7H9l1-1V4L9 3V1H8L7 0 6 1H1L0 2l1 3 1 1v2l1 2h1V8s0 1 0 0l1 1h2l1 1v1l1 1v-1l1-1h2ZM3 3V2h1v1H3Z' style='fill:%23CF1222;stroke:%23fff;stroke-miterlimit:10;stroke-width:0.5px'/%3e%3c/svg%3e"), auto;
-
+    cursor: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' width='32' height='32'%3e%3cpath d='M12 10V8h-1V7H9l1-1V4L9 3V1H8L7 0 6 1H1L0 2l1 3 1 1v2l1 2h1V8s0 1 0 0l1 1h2l1 1v1l1 1v-1l1-1h2ZM3 3V2h1v1H3Z' style='fill:%23CF1222;stroke:%23fff;stroke-miterlimit:10;stroke-width:0.5px'/%3e%3c/svg%3e"), auto;
 }
 
 
+
+@keyframes scanlines {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 0 100%;
+  }
+}
 /* Optional: Change cursor on interactive elements */
 a, button, .project-link, .filter-btn {
-    cursor: url('../css/cursor.svg'), auto;
+    cursor: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' width='32' height='32'%3e%3cpath d='M12 10V8h-1V7H9l1-1V4L9 3V1H8L7 0 6 1H1L0 2l1 3 1 1v2l1 2h1V8s0 1 0 0l1 1h2l1 1v1l1 1v-1l1-1h2ZM3 3V2h1v1H3Z' style='fill:%233E785E;stroke:%23fff;stroke-miterlimit:10;stroke-width:0.5px'/%3e%3c/svg%3e"), auto;
+
 }
 
 body {
@@ -25,9 +34,9 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 30px;
-    padding: 20px;
     border-radius: 8px;
+    z-index: 1;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -42,18 +51,17 @@ h1 {
 }
 
 .controls {
+        background: #fff;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 16px;
+        padding: 16px;
 }
 
-.filter-group {
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-}
+.filter-group {}
 
 .filter-group h3 {
     margin-bottom: 10px;
@@ -89,7 +97,6 @@ button.active {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 100%;
-    max-width: 400px;
 }
 
 .projects-grid {
@@ -118,6 +125,7 @@ button.active {
     background-repeat: no-repeat;
     position: relative;
      flex-shrink: 0;
+     border-radius: 8px;
 }
 
 .project-content {
