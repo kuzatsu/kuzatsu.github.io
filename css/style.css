@@ -51,17 +51,20 @@ h1 {
 }
 
 .controls {
-        background: #fff;
+
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
-    justify-content: space-evenly;
-    border-radius: 16px;
-        padding: 16px;
+    justify-content: center;
+
 }
 
-.filter-group {}
+.filter-group {
+            background: #fff;
+                border-radius: 16px;
+        padding: 16px;
+}
 
 .filter-group h3 {
     margin-bottom: 10px;
@@ -97,6 +100,7 @@ button.active {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 100%;
+        max-width: 400px;
 }
 
 .projects-grid {
