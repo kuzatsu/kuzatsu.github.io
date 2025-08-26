@@ -1,10 +1,10 @@
 [
     {
         "title": "Fukuzatsu+",
-        "description": "A thrilling adventure set in the neon-lit streets of a cyberpunk metropolis.",
+        "description": "Fukuzatsu, the real life balatro inspired poker extravaganza!",
         "image": "https://img.itch.zone/aW1nLzIxODk0NTkxLnBuZw==/315x250%23cb/IyrpzQ.png",
         "link": "https://neon-rot.itch.io/fukuzatsu-plus",
-        "categories": ["Rules", "Core"],
+        "categories": ["Core rules"],
         "types": ["Paid"]
     },
     {
@@ -15,11 +15,35 @@
         "categories": ["Play aid"],
         "types": ["Free", "Paid"]
     },
+    {
+        "title": "Fukuzatsu tarot augments + quick reference",
+        "description": "Tarot card augments: Cut-and-stick printable effects for Fukuzatsu rules. Quick reference: Suit themes, extended hand guide, and chip values.",
+        "image": "https://img.itch.zone/aW1nLzE2OTk4Mjg3LmdpZg==/original/Pzmg0A.gif",
+        "link": "https://awfor.itch.io/fukuzatsu-pocket-guide",
+        "categories": ["Play aid"],
+        "types": ["Free", "Paid"]
+    },
+    {
+        "title": "Soloterrare",
+        "description": "Poker survival horror rouge-like using physical playing cards.",
+        "image": "https://img.itch.zone/aW1nLzE4NTYyNTAzLnBuZw==/315x250%23cb/KQiymH.png",
+        "link": "https://neon-rot.itch.io/fukuzatsu-soloterrare",
+        "categories": ["Expansion"],
+        "types": ["Paid"]
+    },
+    {
+        "title": "Attaccarat",
+        "description": "An expansion for the craziest poker game that lets you attack and defend as though in a war of suits.",
+        "image": "https://img.itch.zone/aW1nLzE3MDEwMTAwLnBuZw==/315x250%23cb/lkVtK%2B.png",
+        "link": "https://neon-rot.itch.io/fukuzatsu-attaccarat",
+        "categories": ["Expansion"],
+        "types": ["Paid"]
+    },
      {
         "title": "Conbini",
         "description": "A card-sized expansion for Fukuzatsu that adds a shop function to games.",
         "image": "https://img.itch.zone/aW1nLzE4MDE2OTExLnBuZw==/315x250%23cb/dfh1gy.png",
-        "link": "https://neon-rot.itch.io/fukuzatsu-conbinie",
+        "link": "https://neon-rot.itch.io/fukuzatsu-conbini",
         "categories": ["Expansion"],
         "types": ["Free"]
     }
