@@ -73,8 +73,8 @@ function initializeWithData(projectsData) {
         typeFilters.appendChild(button);
     });
     
-    // Render all projects initially
-    renderProjects(projectsData);
+    // Check URL for existing filters and apply them
+    applyFiltersFromURL(projectsData);
     
     // Set up filter buttons
     document.querySelectorAll('.filter-btn').forEach(button => {
@@ -89,7 +89,43 @@ function initializeWithData(projectsData) {
     });
     
     // Set up search
-    document.getElementById('search-input').addEventListener('input', () => applyFilters(projectsData));
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', () => applyFilters(projectsData));
+    
+}
+
+function applyFiltersFromURL(projectsData) {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Get category filter from URL
+    const categoryFromURL = urlParams.get('category');
+    if (categoryFromURL) {
+        const categoryButton = document.querySelector(`#category-filters .filter-btn[data-filter="${categoryFromURL}"]`);
+        if (categoryButton) {
+            document.querySelectorAll('#category-filters .filter-btn').forEach(btn => btn.classList.remove('active'));
+            categoryButton.classList.add('active');
+        }
+    }
+    
+    // Get type filter from URL
+    const typeFromURL = urlParams.get('type');
+    if (typeFromURL) {
+        const typeButton = document.querySelector(`#type-filters .filter-btn[data-filter="${typeFromURL}"]`);
+        if (typeButton) {
+            document.querySelectorAll('#type-filters .filter-btn').forEach(btn => btn.classList.remove('active'));
+            typeButton.classList.add('active');
+        }
+    }
+    
+    // Get search term from URL
+    const searchFromURL = urlParams.get('search');
+    if (searchFromURL) {
+        const searchInput = document.getElementById('search-input');
+        searchInput.value = searchFromURL;
+    }
+    
+    // Apply filters with the URL parameters
+    applyFilters(projectsData);
 }
 
 function applyFilters(projectsData) {
@@ -101,6 +137,9 @@ function applyFilters(projectsData) {
     
     // Get search term
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    
+    // Update URL with current filters
+    updateURLWithFilters(activeCategory, activeType, searchTerm);
     
     // Filter projects
     const filteredProjects = projectsData.filter(project => {
@@ -123,8 +162,28 @@ function applyFilters(projectsData) {
     renderProjects(filteredProjects);
 }
 
-// In your renderProjects function, replace the project card generation code
-// In your renderProjects function, replace the project card generation code
+function updateURLWithFilters(category, type, search) {
+    const urlParams = new URLSearchParams();
+    
+    // Only add to URL if not default values
+    if (category && category !== 'all') {
+        urlParams.set('category', category);
+    }
+    
+    if (type && type !== 'all') {
+        urlParams.set('type', type);
+    }
+    
+    if (search) {
+        urlParams.set('search', search);
+    }
+    
+    // Update URL without reloading the page
+    const newURL = urlParams.toString() ? `${window.location.pathname}?${urlParams.toString()}` : window.location.pathname;
+    window.history.replaceState({}, '', newURL);
+}
+
+
 function renderProjects(projectsToRender) {
     const container = document.getElementById('projects-container');
     container.innerHTML = '';
