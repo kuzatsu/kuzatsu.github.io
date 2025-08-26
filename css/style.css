@@ -136,7 +136,8 @@ button.active {
      display: flex;
     flex-direction: row;
     padding: 16px;
-        gap: 20px;
+    gap: 20px;
+    transition: transform 0.2s ease;
 }
 
 .project-image {
