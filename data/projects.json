@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Fukuzatsu+",
+        "description": "A thrilling adventure set in the neon-lit streets of a cyberpunk metropolis.",
+        "image": "https://img.itch.zone/aW1nLzIxODk0NTkxLnBuZw==/315x250%23cb/IyrpzQ.png",
+        "link": "https://neon-rot.itch.io/fukuzatsu-plus",
+        "categories": ["Rules", "Core"],
+        "types": ["Paid"]
+    },
+    {
+        "title": "Fukuzatsu pocket guide",
+        "description": "Card sized rules compatable to be used in conbini",
+        "image": "https://img.itch.zone/aW1nLzIyODE1OTExLnBuZw==/315x250%23cb/9%2FZfQI.png",
+        "link": "https://awfor.itch.io/fukuzatsu-pocket-guide",
+        "categories": ["Play aid"],
+        "types": ["Free", "Paid"]
+    },
+     {
+        "title": "Conbini",
+        "description": "A card-sized expansion for Fukuzatsu that adds a shop function to games.",
+        "image": "https://img.itch.zone/aW1nLzE4MDE2OTExLnBuZw==/315x250%23cb/dfh1gy.png",
+        "link": "https://neon-rot.itch.io/fukuzatsu-conbinie",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    }
+]
+
+

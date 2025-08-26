@@ -1,0 +1,185 @@
+/* Minimal CSS for now - easy to expand later */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     cursor: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' width='32' height='32'%3e%3cpath d='M12 10V8h-1V7H9l1-1V4L9 3V1H8L7 0 6 1H1L0 2l1 3 1 1v2l1 2h1V8s0 1 0 0l1 1h2l1 1v1l1 1v-1l1-1h2ZM3 3V2h1v1H3Z' style='fill:%23CF1222;stroke:%23fff;stroke-miterlimit:10;stroke-width:0.5px'/%3e%3c/svg%3e"), auto;
+
+}
+
+
+/* Optional: Change cursor on interactive elements */
+a, button, .project-link, .filter-btn {
+    cursor: url('../css/cursor.svg'), auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.description {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.filter-group {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.filter-group h3 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+button.active {
+    background: #333;
+    color: #fff;
+}
+
+.search-box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.2s;
+     display: flex;
+    flex-direction: row;
+}
+
+.project-image {
+    height: 250px;
+    /* padding-bottom: 79.37%;  500/630 = 0.79365 (79.37%) - maintains 630x500 aspect ratio */
+    width: 315px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+     flex-shrink: 0;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.project-tag {
+    background: #eee;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.project-link {
+    display: inline-block;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    grid-column: 1 / -1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #666;
+}
+
+/* Add these styles to your existing CSS */
+
+.project-link::after {
+    content: " ↗";
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .project-card {
+    flex-direction: column;
+}
+
+}

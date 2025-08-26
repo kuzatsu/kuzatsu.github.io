@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taured Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Taured Vault</h1>
+        <p class="description">A collection of projects related to Fukuzatsu</p>
+    </header>
+    
+    <div class="controls">
+        <div class="filter-group">
+            <h3>Category</h3>
+            <div class="filter-options" id="category-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <!-- Categories will be added dynamically -->
+            </div>
+        </div>
+        
+        <div class="filter-group">
+            <h3>Price</h3>
+            <div class="filter-options" id="type-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <!-- Types will be added dynamically -->
+            </div>
+        </div>
+        
+        <div class="filter-group">
+            <input type="text" class="search-box" id="search-input" placeholder="Search projects...">
+        </div>
+    </div>
+    
+    <div class="projects-grid" id="projects-container">
+        <!-- Projects will be added dynamically -->
+    </div>
+    
+    <footer>
+        <p>Awfor</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
