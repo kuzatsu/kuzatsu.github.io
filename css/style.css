@@ -33,6 +33,7 @@
     --table-background: #4C2F24;
     --glow-effect: #E4D6A7;
     --card-shadow: #3B1E14;
+    --max-width:800px;
 
     /* Dynamic Theme Variables */
     --theme-bg-primary: var(--white-1);
@@ -48,6 +49,7 @@
     --theme-filter-hover: var(--white-3);
     --theme-tag-bg: #eee;
     --theme-scan-opacity: 0.1;
+    
 }
 
 * {
@@ -57,6 +59,21 @@
     cursor: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' width='32' height='32'%3e%3cpath d='M12 10V8h-1V7H9l1-1V4L9 3V1H8L7 0 6 1H1L0 2l1 3 1 1v2l1 2h1V8s0 1 0 0l1 1h2l1 1v1l1 1v-1l1-1h2ZM3 3V2h1v1H3Z' style='fill:%23CF1222;stroke:%23fff;stroke-miterlimit:10;stroke-width:0.5px'/%3e%3c/svg%3e"), auto;
     /* Add smooth transitions for theme changes */
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+header{
+    max-width: var(--max-width);
+    width:60%;
+}
+.logo-symbols{
+  fill:var(--theme-accent);
+}
+.logo-fuku{
+  fill:var(--theme-text-primary);
+}
+.logo-strap{
+  fill:var(--theme-text-secondary);
 }
 
 /* Optional: Change cursor on interactive elements */
@@ -119,7 +136,7 @@ h1 {
     gap: 10px;
     margin-bottom: 20px;
     justify-content: center;
-    max-width: 800px;
+    max-width: var(--max-width);
     margin-top: auto;
 }
 
