@@ -258,11 +258,11 @@ ocean: {
     '--theme-bg-secondary': '#4facfe', // gradient-like deep aqua
     '--theme-text-primary': '#002a24', // dark teal for max contrast
     '--theme-text-secondary': '#004d40', 
-    '--theme-accent': '#00bfa5', // neon teal
+    '--theme-accent': '#bf00a6ff', // neon teal
     '--theme-accent-hover': '#00897b',
     '--theme-border': '#00695c',
     '--theme-shadow': 'rgba(0, 89, 80, 0.6)', // glowing shadow
-    '--theme-card-bg': '#ffffff',
+    '--theme-card-bg': '#deeefbff',
     '--theme-filter-bg': '#80cbc4',
     '--theme-filter-hover': '#4db6ac',
     '--theme-tag-bg': '#4db6ac',
@@ -274,11 +274,11 @@ mystic: {
     '--theme-bg-secondary': '#d884ff', // vivid purple
     '--theme-text-primary': '#2a0035', // very dark purple
     '--theme-text-secondary': '#4a148c',
-    '--theme-accent': '#b500ff', // electric violet
+    '--theme-accent': '#11853cff', // electric violet
     '--theme-accent-hover': '#9c27b0',
     '--theme-border': '#6a1b9a',
     '--theme-shadow': 'rgba(76, 0, 130, 0.6)',
-    '--theme-card-bg': '#ffffff',
+    '--theme-card-bg': '#e7e0faff',
     '--theme-filter-bg': '#d1c4e9',
     '--theme-filter-hover': '#b39ddb',
     '--theme-tag-bg': '#ce93d8',
@@ -290,11 +290,11 @@ forest: {
     '--theme-bg-secondary': '#76d275', // more saturated leaf green
     '--theme-text-primary': '#122b12', 
     '--theme-text-secondary': '#1b5e20',
-    '--theme-accent': '#43a047', // richer green
+    '--theme-accent': '#b500ff', // richer green
     '--theme-accent-hover': '#2e7d32',
     '--theme-border': '#2e7d32',
     '--theme-shadow': 'rgba(34, 85, 34, 0.6)',
-    '--theme-card-bg': '#ffffff',
+    '--theme-card-bg': '#f1e8d0ff',
     '--theme-filter-bg': '#a5d6a7',
     '--theme-filter-hover': '#81c784',
     '--theme-tag-bg': '#81c784',
@@ -324,8 +324,8 @@ forest: {
                 '--theme-text-primary':' #ffffff',
                 '--theme-text-secondary':' #c8d1e0',
                 '--theme-accent':' #ff00cc',
-                '--theme-accent-hover':' #3333ff',
-                '--theme-border':' #ff00cc',
+                '--theme-accent-hover':' #6b6beaff',
+                '--theme-border':' #6722b0ff', // old #ff00cc
                 '--theme-shadow':' #330033',
                 '--theme-card-bg':' #1a1a2e',
                 '--theme-filter-bg':' #404071ff',
