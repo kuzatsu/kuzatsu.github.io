@@ -69,12 +69,15 @@ header{
 }
 .logo-symbols{
   fill:var(--theme-accent);
+  transform-origin: 25% 50%;
 }
 .logo-fuku{
   fill:var(--theme-text-primary);
+  transform-origin: center;
 }
 .logo-strap{
   fill:var(--theme-text-secondary);
+  transform-origin: 75% 25%;
 }
 
 /* Optional: Change cursor on interactive elements */
