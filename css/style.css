@@ -101,6 +101,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+        height: 100vh;
 }
 
 body::before {
@@ -110,6 +111,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100wh;
     background-image: url('tvscan.png');
     background-repeat: repeat;
     opacity: var(--theme-scan-opacity);
@@ -141,7 +143,6 @@ h1 {
     margin-bottom: 20px;
     justify-content: center;
     max-width: var(--max-width);
-    margin-top: auto;
 }
 
 .filter-group {
