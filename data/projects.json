@@ -1,4 +1,12 @@
 [
+     {
+        "title": "Calculator",
+        "description": "Tired of mathing points out? Push all of that labour onto online points calculator",
+        "image": "https://images.ctfassets.net/g7p1c6y1fmhy/3B2XS1boI9eIjgeBq4zM9j/036f4a3c8958aeb5bb29f026bd71a0c2/Untitled-1Artboard-2.png",
+        "link": "https://awforsaken.github.io/fukuzatsu",
+        "categories": ["Play aid"],
+        "types": ["Free"]
+    },
     {
         "title": "Fukuzatsu+",
         "description": "Fukuzatsu, the real life balatro inspired poker extravaganza!",

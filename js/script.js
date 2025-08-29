@@ -321,10 +321,10 @@ forest: {
             glitched: {
                 '--theme-bg-primary':' #0a0a12',
                 '--theme-bg-secondary':' #1a1a2e',
-                '--theme-text-primary':' #ffffff',
-                '--theme-text-secondary':' #c8d1e0',
+                '--theme-text-primary':' #d1f6f8ff',
+                '--theme-text-secondary':' #bdc8dbff',
                 '--theme-accent':' #ff00cc',
-                '--theme-accent-hover':' #6b6beaff',
+                '--theme-accent-hover':' #b5b5d9ff',
                 '--theme-border':' #6722b0ff', // old #ff00cc
                 '--theme-shadow':' #000000ff',
                 '--theme-card-bg':' #1a1a2e',
