@@ -396,6 +396,7 @@ function createThemeIndicator() {
             justify-content: center;
             box-shadow: 0 2px 10px var(--theme-shadow);
             transition: all 0.3s ease;
+            opacity: 0;
         }
         
         #theme-indicator:hover {
