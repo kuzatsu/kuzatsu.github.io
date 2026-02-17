@@ -62,6 +62,14 @@
         "link": "https://neon-rot.itch.io/fukuzatsu-conbini",
         "categories": ["Expansion"],
         "types": ["Free"]
+    },
+    {
+        "title": "Gaffukuzatsu",
+        "description": "Micro-expansion that aims to make these gaff cards compatible with the game at large.",
+        "image": "/data/misc/gaffukuzatsu.png",
+        "link": "https://electriccoffee.itch.io/fukuzatsu-expansions",
+        "categories": ["Expansion"],
+        "types": ["Free"]
     }
 ]
 
