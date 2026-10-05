@@ -39,6 +39,14 @@
         "categories": ["Play aid"],
         "types": ["Free", "Paid"]
     },
+     {
+        "title": "Fukuzatsu Pocket 複雑なポケット",
+        "description": "Fukuzatsu Pocket 複雑なポケット is a foldable quick reference pamphlet including some of the rules for Fukuzatsu Taured Poker (Standard and Southern rules) distilled down to the essentials. Enough to get you started on the go.",
+        "image": "https://img.itch.zone/aW1nLzMwMzkzOTI4LnBuZw==/315x250%23cb/zCpmRP.png",
+        "link": "https://eramseth.itch.io/fukuzatsu-pocket",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
     {
         "title": "Soloterrare",
         "description": "Poker survival horror rouge-like using physical playing cards.",
