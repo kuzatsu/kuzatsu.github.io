@@ -80,6 +80,38 @@
         "types": ["Free"]
     },
     {
+        "title": "Nijuu Ichiban Batoru",
+        "description": "Nijuu Ichiban Batoru is a 1 Vs 1, blackjack inspired, fan supplement for the original Fukuzatsu game designed by Willow Jay (NeonRot). It was created for the Fukuzatsu: Secrets of Taured Jam 2 on itch.io in September 2026.  The game is inspired by Baltro, Dungeons and Degenerate Gamblers, Blackjack and the Tarot.",
+        "image": "https://img.itch.zone/aW1nLzMwMTMzMjkzLmpwZw==/315x250%23cb/ZK9P1Z.jpg",
+        "link": "https://petey-mac.itch.io/nijuu-ichiban-batoru",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
+        "title": "The Devil's Purse",
+        "description": "Add shards of lost, potentially legendary, Fukuzatsu cards to your own deck or sabotage your opponents with cursed shards stitched into their decks. The Devil's Purse is an addition to the Conbini mechanic of the Fukuzatsu game designed by Willow Jay (NeonRot). This was created for the Fukuzatsu: Secrets of Taured Jam 2 on itch.io in September 2026.",
+        "image": "https://img.itch.zone/aW1nLzMwMTY0MDMxLnBuZw==/315x250%23cb/xBmUy1.png",
+        "link": "https://petey-mac.itch.io/the-devils-purse",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
+        "title": "Fukuzatsu: Extra Hands",
+        "description": "Adds 9 extra hands and one new, simple rule for Fukuzatsu.",
+        "image": "https://img.itch.zone/aW1nLzMwMTEyNDI4LnBuZw==/315x250%23cb/m1VEy6.png",
+        "link": "https://heropilotcom.itch.io/fukuzatsu1",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
+        "title": "Fukuzatsu: Multiversal Tasting Platter",
+        "description": "Open a Locked Box from Another World and find Tarot BEYOND the normal 72 cards. ENHANCE, EXTORT, and ADD to your game with NEW mechanics and RULES. ",
+        "image": "https://img.itch.zone/aW1nLzMwMzQ2ODM2LnBuZw==/315x250%23cb/TTD0YZ.png",
+        "link": "https://heropilotcom.itch.io/fukuzatsu2",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
         "title": "Gaffukuzatsu + the hole punch",
         "description": "Two micro-expansions: Gaffukuzatsu aims to make gaff cards compatible with the game at large. The hole punch lets you poke holes in your card.",
         "image": "/data/misc/gaffukuzatsu.png",
@@ -87,6 +119,8 @@
         "categories": ["Expansion"],
         "types": ["Free"]
     }
+
+
 ]
 
 

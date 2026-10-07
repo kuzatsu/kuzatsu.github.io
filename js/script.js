@@ -219,6 +219,34 @@ function renderProjects(projectsToRender) {
         container.appendChild(projectEl);
     });
 }
+const modal = document.getElementById('fukuzatsu-modal');
+const modalLink = document.getElementById('fukuzatsu-link');
+const modalClose = document.getElementById('modal-close');
+
+function openModal(e) {
+    e.preventDefault();
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+}
+
+function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+}
+
+modalLink.addEventListener('click', openModal);
+modalClose.addEventListener('click', closeModal);
+
+// Close when clicking the dark overlay (but not the modal box itself)
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+});
+
+// Close on Escape
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+});
+
 
 const themes = {
             tavern: {

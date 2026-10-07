@@ -1,5 +1,5 @@
 function applyRandomTilts() {
-    const cards = document.querySelectorAll('.project-card, .description, .logo-symbols, .logo-strap, .logo-fuku');
+    const cards = document.querySelectorAll('.project-card, .description, .logo-symbols, .logo-strap, .logo-fuku. .wiggle');
     cards.forEach(card => {
         if (!card.style.transform) { // Only apply if not already tilted
             const randomTilt = (Math.random() - 0.5) * 4;
