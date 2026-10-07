@@ -24,7 +24,7 @@
         "types": ["Paid"]
     },
     {
-        "title": "Conbini",
+        "title": "Fukuzatsu: Furykku",
         "description": "Furykku is a dexterity based flicking game based on Fukuzatsu for 2-3 players. Though it does not use a Fukuzatsu deck, the rules are very similar and a full set of tarot is still required to play.",
         "image": "https://img.itch.zone/aW1nLzMwMzQ3ODI4LnBuZw==/315x250%23cb/EBeRaR.png",
         "link": "https://neon-rot.itch.io/furykku",
@@ -32,7 +32,7 @@
         "types": ["Free"]
     },
     {
-        "title": "Fukuzatsu: Furykku",
+        "title": "Pocket guide",
         "description": "Card sized rules compatable to be used in conbini",
         "image": "https://img.itch.zone/aW1nLzIyODE1OTExLnBuZw==/315x250%23cb/9%2FZfQI.png",
         "link": "https://awfor.itch.io/fukuzatsu-pocket-guide",
@@ -108,6 +108,14 @@
         "description": "Open a Locked Box from Another World and find Tarot BEYOND the normal 72 cards. ENHANCE, EXTORT, and ADD to your game with NEW mechanics and RULES. ",
         "image": "https://img.itch.zone/aW1nLzMwMzQ2ODM2LnBuZw==/315x250%23cb/TTD0YZ.png",
         "link": "https://heropilotcom.itch.io/fukuzatsu2",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
+        "title": "The B1G F1VE",
+        "description": "What if FUKUZATSU had a dealer style deck like Texas Hold 'Em? What if everyone had access to these cards in the same way? That's where the B1G F1VE come in. <br> In the B1G F1VE, players will have a chance to BRIBE the cards in the companies hand to try and get them to work for you. Though, with their greed, they will work for anyone for the right amount of PAY. Win the hand? Maybe they will come work for you instead...",
+        "image": "https://img.itch.zone/aW1nLzMwMTY3MzgzLnBuZw==/315x250%23cb/idvGU%2F.png",
+        "link": "https://yabaganoosh.itch.io/the-b1g-f1ve-expansion-for-fukuzatsu",
         "categories": ["Expansion"],
         "types": ["Free"]
     },
