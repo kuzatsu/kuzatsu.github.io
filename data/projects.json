@@ -24,7 +24,15 @@
         "types": ["Paid"]
     },
     {
-        "title": "Fukuzatsu pocket guide",
+        "title": "Conbini",
+        "description": "Furykku is a dexterity based flicking game based on Fukuzatsu for 2-3 players. Though it does not use a Fukuzatsu deck, the rules are very similar and a full set of tarot is still required to play.",
+        "image": "https://img.itch.zone/aW1nLzMwMzQ3ODI4LnBuZw==/315x250%23cb/EBeRaR.png",
+        "link": "https://neon-rot.itch.io/furykku",
+        "categories": ["Expansion"],
+        "types": ["Free"]
+    },
+    {
+        "title": "Fukuzatsu: Furykku",
         "description": "Card sized rules compatable to be used in conbini",
         "image": "https://img.itch.zone/aW1nLzIyODE1OTExLnBuZw==/315x250%23cb/9%2FZfQI.png",
         "link": "https://awfor.itch.io/fukuzatsu-pocket-guide",
